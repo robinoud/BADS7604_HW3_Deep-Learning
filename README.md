@@ -1,6 +1,6 @@
 # Traditional Machine Learning (ML) vs Deep Learning (DL)
 ## _Powered by The Deep Sleeping Crew (Group6)_
-**`Deep Learning`** is a subset of **`Machine Learning`** which improves so fast to process big and complex data today. The spotlight focus on deep learning. Many people may forget about traditional machine learning. This experiment aims to compare the performance of prediction between **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**. Including hyperparameters tuning, modeling. We expect a sensational result and a good experience for our team members. 
+**`Deep Learning`** is a subset of **`Machine Learning`** which improves so fast to process big and complex data today. The spotlight focus on deep learning. Many people may forget about traditional machine learning. This experiment aims to compare the performance of prediction between **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**. Including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members. 
 ## 1. Dataset
 Before modeling, the dataset selection is the important portion of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for training and testing with Multilayer Perceptron (MLP) model. Let’s say the size of the dataset is the reason why we need deep learning. 
 
@@ -43,11 +43,11 @@ In this process, we need to **`design and tune the hyperparameters`** of the Mul
 
 From our experiment, we have got interesting ideas for hyperparameter tuning. 
 
-1) If **`the number of neurons node`** in each layer is **`over 500 nodes`**, there is **`no significant improvement`**. 
+- If **`the number of neurons node`** in each layer is **`over 500 nodes`**, there is **`no significant improvement`**. 
 
-2) If **`Initial Weight = 0`** at all hidden layers, the sequence will **`not converge`**, fixed weights by defining both seed & initial weights. 
+- If **`Initial Weight = 0`** at all hidden layers, the sequence will **`not converge`**, fixed weights by defining both seed & initial weights. 
 
-3) If **`the learning rate is too small`**, the sequence will **`converge slowly`**.
+- If **`the learning rate is too small`**, the sequence will **`converge slowly`**.
 
 #### 3.1.2 What is the best one?
 
