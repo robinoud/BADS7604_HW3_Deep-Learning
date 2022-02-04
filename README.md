@@ -73,6 +73,21 @@ For training this dataset to traditional machine learning, we use Scikit-learn, 
 
 ## 4. Conclusion
 
+| Implementation Details | Multilayer Perceptron (MLP)  | Traditional Machine Learning (ML) |
+| ------ | :------: | :------: |
+| 1. A huge number of input data required | Yes | No |
+| 2. Data pre-processing required | Yes | Yes |
+| 3. Suffers from black-box issue | Yes | No, thanks to its model representation  |
+| 4. High computing power consuming | Yes | No |
+| 5. A lot of parameters and training time consuming | Yes | No |
+
+| Performance Measures | Our self-designed MLP | Logistic Regression (LR) | Support Vector Machine (SVM) | Random Forest (RF) | K-Nearest Neighbor (KNN) |
+| ------ | :------: | :------: | :------: | :------: | :------: |
+| 1. Accuracy | 0.849 | 0.819 | 0.834 | 0.842 | 0.842 | 
+| 2. Recall | 0.852 | 0.821 | 0.837 | 0.847 | 0.847 | 
+| 3. Precision | 0.850 | 0.820 | 0.834 | 0.842 | 0.842 |
+| 4. F1 Score | 0.849 | 0.819 | 0.834 | 0.842 | 0.842 |
+
 ### 4.1 recommendation (using MLP vs. using traditional ML for structure data)
 
 ## End Credit
