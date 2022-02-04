@@ -49,7 +49,7 @@ From our experiment, we have got interesting ideas for hyperparameter tuning.
 
 - If **`the learning rate is too small`**, the sequence will **`converge slowly`**.
 
-#### 3.1.2 What is the best one?
+#### 3.1.2 Which one is the BEST?
 
 |Indicator|Score|
 | ------ | :------: |
