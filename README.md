@@ -51,13 +51,12 @@ From our experiment, we have got interesting ideas for hyperparameter tuning.
 
 #### 3.1.2 What is the best one?
 
-Accuracy:			84.20% 
-
-Recall:				84.51% 
-
-Precision:			84.24% 
-
-F1 Score:			84.17%
+|Indicator|Score|
+| ------ | :------: |
+|Accuracy|84.20%|
+|Recall|84.51%|
+|Precision|84.24%|
+|F1 Score|84.17%|
 
 ### 3.2 Traditional Machine Learning (ML)
 
@@ -87,3 +86,5 @@ For training this dataset to traditional machine learning, we use Scikit-learn, 
 **`16.67%`** 🍕 - **`6310422065`** Songpol Bunyang
 
 **`16.67%`** 🍕 - **`6310422069`** Phawit Boonrat
+
+<img src="https://th-test-11.slatic.net/p/49b63f074bd226e6871cc97c5525fc15.jpg" alt="drawing" style="width:200px;"/>
