@@ -46,7 +46,7 @@ From our experiment, we have got interesting ideas for hyperparameter tuning.
 
 #### 3.1.2 What is the best one?
 
-One of the group members created the best self-designed MLP which performed 85.18% accurately on the test dataset. The model architecture consists of one input layer, five hidden layers, one dropout layer with 30%, and one output layer, totaling 220,161 parameters as shown in the figure below.  
+One of the group members created the best self-designed MLP which performed 85.18% accurately on the test dataset. The model architecture consists of one input layer, five hidden layers, one dropout layer with 30%, and one output layer, totaling 220,673 parameters as shown in the figure below.  
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/804533861f928d325a4bb1752069c7b39894917e/Model%20Summary.jpg" style="width:600px;"/>
 
