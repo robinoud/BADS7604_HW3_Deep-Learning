@@ -4,7 +4,7 @@
 ## 1. Dataset
 Before modeling, the dataset selection is the crucial thing of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for being applied with MLP. So, it is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
 
-Then, we had an interest in the **`Adult dataset`** from UCI huge enough for our experiment. The dataset is for making a prediction whether a person's income exceeds $50K/yr based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
+Then, we had an interest in the **`Adult dataset`** from UCI huge enough for our experiment. The dataset is for making a prediction whether a person's income exceeds $50K per year based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
 
 Ref: https://archive.ics.uci.edu/ml/datasets/Adult
 
@@ -14,7 +14,7 @@ The first part of this study is to explore data for understanding the character 
 
 ## 2. Data Preperation
 
-In this section, we made an attempt to get data ready for testing with a self-designed MLP network. To share feasible methods with each other, we discuss the results of members' self-experiment. briefly, in addition to **`correctness`** and **`missing value`**, the different types of attributes including numerical and categorical values need to be managed. Since traditional machine learning usually requires a numerical format for training and making a prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship.  
+In this section, we made an attempt to get data ready for testing with a self-designed MLP network. To share feasible methods with each other, we discuss the results of members' self-experiment. Briefly, we removed missing values or outliers from the columns which interested us in the cleansing step. Next, the different types of attributes including numerical and categorical values need to be managed. Since traditional machine learning usually requires a numerical format for training and making a prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship. Then, as encountering imbalanced datasets, we applied SMOTE (Synthetic Minority Over-sampling Technique) to perform over-sampling for solving the problem. Lastly, normalization was used for learning algorithms' benefit. 
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Data%20preperation%20steps.png" style="width:600px;"/>
 
