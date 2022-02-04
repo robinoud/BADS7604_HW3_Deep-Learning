@@ -1,6 +1,6 @@
 # Traditional Machine Learning (ML) vs Deep Learning (DL)
 ## _Powered by The Deep Sleeping Crew (Group6)_
-**`Deep Learning`** is a subset of **`Machine Learning`** which makes rapid advancement to process huge and complex data nowadays. Since the spotlight focuses on deep learning, most users may forget about traditional machine learning. This experiment aims to compare the performance of prediction between **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**, including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members and for readers. 
+**`Deep Learning`** is a subset of **`Machine Learning`** which improves so fast to process huge and complex data nowadays. Since the spotlight focuses on deep learning, most users may forget about traditional machine learning. This experiment aims to compare the performance of prediction between **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**, including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members and for readers. 
 ## 1. Dataset
 Before modeling, the dataset selection is the crucial part of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for training and testing with Multilayer Perceptron (MLP) model. It is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
 
@@ -52,6 +52,8 @@ From our experiment, we have got interesting ideas for hyperparameter tuning.
 - If **`the learning rate is too small`**, the sequence will **`converge slowly`**.
 
 #### 3.1.2 What is the best one?
+
+<img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/804533861f928d325a4bb1752069c7b39894917e/Model%20Summary.jpg" style="width:600px;"/>
 
 |Indicator|Score|
 | ------ | :------: |
@@ -105,3 +107,5 @@ For training this dataset to traditional machine learning, we use Scikit-learn, 
 **`16.67%`** 🍕 - **`6310422069`** Phawit Boonrat
 
 <img src="https://th-test-11.slatic.net/p/49b63f074bd226e6871cc97c5525fc15.jpg" alt="drawing" style="width:200px;"/>
+
+### Enjoy your pizza!!
