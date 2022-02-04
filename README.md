@@ -8,7 +8,7 @@ Then, the **`Adult dataset`** from UCI is so interesting and big enough for our 
 
 Ref: https://archive.ics.uci.edu/ml/datasets/Adult
 
-The first part of this study is Exploratory data analysis for understanding the character and pattern of the dataset such as shape, size, type of data of each attribute, correctness, missing value, etc. by statistics method and data visualization.
+The first part of this study is to explore data for understanding the character and pattern of the dataset such as shape, size, type of data of each attribute, correctness, missing value, etc. by statistics method and data visualization.
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Workflow%20of%20the%20experiment.png" style="width:600px;"/>
 
