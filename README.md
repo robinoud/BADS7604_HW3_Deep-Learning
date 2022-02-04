@@ -10,7 +10,7 @@ Ref: https://archive.ics.uci.edu/ml/datasets/Adult
 
 The first part of this study is Exploratory data analysis for understanding the character and pattern of the dataset such as shape, size, type of data of each attribute, correctness, missing value, etc. by statistics method and data visualization.
 
-<img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/b1eb5bcffbc2618f96af1664a7a0bb857dcf4ed9/Workflow%20of%20the%20experiment.jpeg" style="width:600px;"/>
+<img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Workflow%20of%20the%20experiment.png" style="width:600px;"/>
 
 ## 2. Data Pre-processing
 
@@ -23,7 +23,7 @@ Additional from **`correctness`** and **`missing value`**, this dataset needs to
 Finally, we combine the 2 methods and get a better result  
 [test with model 84-84% & dropout 0.3]
 
-<img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/b1eb5bcffbc2618f96af1664a7a0bb857dcf4ed9/Data%20prep%20steps.jpeg" style="width:600px;"/>
+<img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Data%20preperation%20steps.png" style="width:600px;"/>
 
 ## 3. Experiment result and discussion
 ### 3.1 Multilayer Perceptron (MLP)
