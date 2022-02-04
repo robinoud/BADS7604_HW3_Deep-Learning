@@ -53,6 +53,8 @@ From our experiment, we have got interesting ideas for hyperparameter tuning.
 
 #### 3.1.2 What is the best one?
 
+<img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/804533861f928d325a4bb1752069c7b39894917e/Model%20Summary.jpg" style="width:600px;"/>
+
 |Indicator|Score|
 | ------ | :------: |
 |Accuracy|84.20%|
