@@ -31,11 +31,11 @@ In this process, we need to design and tune the hyperparameters of the Multilaye
 | Groups of hyperparameter tuning | List of hyperparameters | Hyperparameter ranges |
 | ------ | ------ | ------ |
 | Major | 1) The number of neurons node in each layer | 1-10,000 |
-|| 2) The activation function | Sigmoid, ReLU |
+|| 2) The activation function | Sigmoid, ReLU, Tanh, Softplus |
 || 3) Batch norm | Before/After Act.Func |
-|| 4) Initial learning rate | 10-10,000 |
-|| 5) Initial weight | 0.0001-0.1 |
-| Minor | 1) Batch size |
+|| 4) Initial learning rate | 0.0001-0.1 |
+|| 5) Initial weight | 
+| Minor | 1) Batch size |10-10,000 |
 || 2) Drop out | None, after hidden layers
 || 3) Optimizer | ADAM, SGD, RMSProp
 
