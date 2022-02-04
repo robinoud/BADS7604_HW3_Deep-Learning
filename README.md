@@ -8,7 +8,9 @@ Then, the **`Adult dataset`** from UCI is so interesting and big enough for our 
 
 Ref: https://archive.ics.uci.edu/ml/datasets/Adult
 
-The first part of this study is Exploratory data analysis for understanding the character and pattern of the dataset such as shape, size, type of data of each attribute, correctness, missing value, etc. by statistics method and data visualization. 
+The first part of this study is Exploratory data analysis for understanding the character and pattern of the dataset such as shape, size, type of data of each attribute, correctness, missing value, etc. by statistics method and data visualization.
+
+![Pic1](https://cldup.com/dTxpPi9lDf.thumb.png)
 
 ## 2. Data Pre-processing
 
@@ -33,9 +35,9 @@ In this process, we need to design and tune the hyperparameters of the Multilaye
 | Major | 1) The number of neurons node in each layer | 1-10,000 |
 || 2) The activation function | Sigmoid, ReLU, Tanh, Softplus |
 || 3) Batch norm | Before/After Act.Func |
-|| 4) Initial learning rate | 0.0001-0.1 |
-|| 5) Initial weight | 
-| Minor | 1) Batch size |10-10,000 |
+|| 4) Initial learning rate | 0.0001-0.1  |
+|| 5) Initial weight |
+| Minor | 1) Batch size |
 || 2) Drop out | None, after hidden layers
 || 3) Optimizer | ADAM, SGD, RMSProp
 
@@ -61,7 +63,7 @@ F1 Score:			99.97%
 
 For training this dataset to traditional machine learning, we use Scikit-learn, the popular library in Python. The algorithm we select **`Logistic Regression (LR)`**, **`Support Vector Machine (SVM)`**, **`Random Forest (RF)`**, and **`K-Nearest Neighbor (KNN)`** for training and making predictions.
 
-| Algorithms | Accuracy | Recall | Precision | F1 Score |
+| Algorithm | Accuracy | Recall | Precision | F1 Score |
 | ------ | ------ | ------ | ------ | ------ |
 | Logistic Regression (LR) | 0.819 | 0.821 | 0.820 | 0.819 |
 | Support Vector Machine (SVM) | 0.834 | 0.837 | 0.834 | 0.834 |
@@ -70,4 +72,19 @@ For training this dataset to traditional machine learning, we use Scikit-learn, 
 
 ## 4. Conclusion
 
-### 4.1 recommendation (using MLP vs. using traditional ML for structure data) 
+### 4.1 recommendation (using MLP vs. using traditional ML for structure data)
+
+## End Credit
+### _The Deep Sleeping Crew (Group6)_
+### Contribution - Uniform
+**`16.67%`** - **`6310422057`** Natdanai Thedwichienchai
+
+**`16.67%`** - **`6310422061`** Wuthipoom Kunaborimas
+
+**`16.67%`** - **`6310422063`** Nuj Lael
+
+**`16.67%`** - **`6310422064`** Krisna Pintong
+
+**`16.67%`** - **`6310422065`** Songpol Bunyang
+
+**`16.67%`** - **`6310422069`** Phawit Boonrat
