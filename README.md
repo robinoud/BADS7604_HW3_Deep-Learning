@@ -1,8 +1,8 @@
 # Traditional Machine Learning (ML) vs Deep Learning (DL)
 ## _Powered by The Deep Sleeping Crew (Group6)_
-**`Deep Learning`** is a subset of **`Machine Learning`** which improves so fast to process big and complex data today. The spotlight focus on deep learning. Many people may forget about traditional machine learning. This experiment aims to compare the performance of prediction between **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**. Including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members. 
+**`Deep Learning`** is a subset of **`Machine Learning`** which improves so fast to process big and complex data today. Since the spotlight focus on deep learning, most users may forget about traditional machine learning. This experiment aims to compare the performance of prediction between **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**, including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members. 
 ## 1. Dataset
-Before modeling, the dataset selection is the important portion of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for training and testing with Multilayer Perceptron (MLP) model. Let’s say the size of the dataset is the reason why we need deep learning. 
+Before modeling, the dataset selection is the crucial part of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for training and testing with Multilayer Perceptron (MLP) model. It is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
 
 Then, the **`Adult dataset`** from UCI is so interesting and big enough for our experiment. this dataset predict whether income exceeds $50K/yr based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
 
@@ -49,7 +49,7 @@ From our experiment, we have got interesting ideas for hyperparameter tuning.
 
 - If **`the learning rate is too small`**, the sequence will **`converge slowly`**.
 
-#### 3.1.2 Which one is the BEST?
+#### 3.1.2 What is the best one?
 
 |Indicator|Score|
 | ------ | :------: |
