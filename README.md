@@ -26,9 +26,9 @@ Finally, we combine the 2 methods and get a better result
 ## 3. Experiment result and discussion
 ### 3.1 Multilayer Perceptron (MLP)
 
-3.1.1 Several combinations of hyperparameter comparisons 
+#### 3.1.1 Several combinations of hyperparameter comparisons 
 
-In this process, we need to design and tune the hyperparameters of the Multilayer Perceptron (MLP) network. Due to deep learning having a black-box characteristic, we need to tune the hyperparameters by trial-and-error method for designing the most suitable model for this dataset. All hyperparameters are prioritized and randomly observed in the following table. 
+In this process, we need to **`design and tune the hyperparameters`** of the Multilayer Perceptron (MLP) network. Due to deep learning having a black-box characteristic, we need to tune the hyperparameters by **`trial-and-error method`** for designing the most suitable model for this dataset. All hyperparameters are **`prioritized`** and **`randomly observed`** in the following table. 
 
 | Groups of hyperparameter tuning | List of hyperparameters | Hyperparameter ranges |
 | :------: | ------ | ------ |
@@ -43,13 +43,13 @@ In this process, we need to design and tune the hyperparameters of the Multilaye
 
 From our experiment, we have got interesting ideas for hyperparameter tuning. 
 
-1) If The number of neurons node in each layer is over 500 nodes, there is no significant improvement. 
+1) If **`the number of neurons node`** in each layer is **`over 500 nodes`**, there is **`no significant improvement`**. 
 
-2) If Initial Weight = 0 at all hidden layers, the sequence will not converge, fixed weights by defining both seed & initial weights. 
+2) If **`Initial Weight = 0`** at all hidden layers, the sequence will **`not converge`**, fixed weights by defining both seed & initial weights. 
 
-3) If the learning rate is too small, the sequence will converge slowly.
+3) If **`the learning rate is too small`**, the sequence will **`converge slowly`**.
 
-3.1.2 What is the best one?
+#### 3.1.2 What is the best one?
 
 Accuracy:			99.97% 
 
@@ -64,7 +64,7 @@ F1 Score:			99.97%
 For training this dataset to traditional machine learning, we use Scikit-learn, the popular library in Python. The algorithm we select **`Logistic Regression (LR)`**, **`Support Vector Machine (SVM)`**, **`Random Forest (RF)`**, and **`K-Nearest Neighbor (KNN)`** for training and making predictions.
 
 | Algorithm | Accuracy | Recall | Precision | F1 Score |
-| ------ | ------ | ------ | ------ | ------ |
+| ------ | :------: | :------: | :------: | :------: |
 | Logistic Regression (LR) | 0.819 | 0.821 | 0.820 | 0.819 |
 | Support Vector Machine (SVM) | 0.834 | 0.837 | 0.834 | 0.834 |
 | Random Forest (RF) | 0.842 | 0.847 | 0.842 | 0.842 |
@@ -74,17 +74,16 @@ For training this dataset to traditional machine learning, we use Scikit-learn, 
 
 ### 4.1 recommendation (using MLP vs. using traditional ML for structure data)
 
-# End Credit
-## _The Deep Sleeping Crew (Group6)_
-### Contribution - Uniform
-**`16.67%`** - **`6310422057`** Natdanai Thedwichienchai
+## End Credit
+### _The Deep Sleeping Crew (Group6) Contribution - Uniform_
+**`16.67%`** 🍕 - **`6310422057`** Natdanai Thedwichienchai
 
-**`16.67%`** - **`6310422061`** Wuthipoom Kunaborimas
+**`16.67%`** 🍕 - **`6310422061`** Wuthipoom Kunaborimas
 
-**`16.67%`** - **`6310422063`** Nuj Lael
+**`16.67%`** 🍕 - **`6310422063`** Nuj Lael
 
-**`16.67%`** - **`6310422064`** Krisna Pintong
+**`16.67%`** 🍕 - **`6310422064`** Krisna Pintong
 
-**`16.67%`** - **`6310422065`** Songpol Bunyang
+**`16.67%`** 🍕 - **`6310422065`** Songpol Bunyang
 
-**`16.67%`** - **`6310422069`** Phawit Boonrat
+**`16.67%`** 🍕 - **`6310422069`** Phawit Boonrat
