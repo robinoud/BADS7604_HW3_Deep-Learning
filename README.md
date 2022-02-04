@@ -31,7 +31,7 @@ Finally, we combine the 2 methods and get a better result
 In this process, we need to design and tune the hyperparameters of the Multilayer Perceptron (MLP) network. Due to deep learning having a black-box characteristic, we need to tune the hyperparameters by trial-and-error method for designing the most suitable model for this dataset. All hyperparameters are prioritized and randomly observed in the following table. 
 
 | Groups of hyperparameter tuning | List of hyperparameters | Hyperparameter ranges |
-| ------ | ------ | ------ |
+| :------: | ------ | ------ |
 | Major | 1) The number of neurons node in each layer | 1-10,000 |
 || 2) The activation function | Sigmoid, ReLU, Tanh, Softplus |
 || 3) Batch norm | Before/After Act.Func |
@@ -74,8 +74,8 @@ For training this dataset to traditional machine learning, we use Scikit-learn, 
 
 ### 4.1 recommendation (using MLP vs. using traditional ML for structure data)
 
-## End Credit
-### _The Deep Sleeping Crew (Group6)_
+# End Credit
+## _The Deep Sleeping Crew (Group6)_
 ### Contribution - Uniform
 **`16.67%`** - **`6310422057`** Natdanai Thedwichienchai
 
