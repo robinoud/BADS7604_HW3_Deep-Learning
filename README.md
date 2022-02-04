@@ -10,7 +10,7 @@ Ref: https://archive.ics.uci.edu/ml/datasets/Adult
 
 The first part of this study is Exploratory data analysis for understanding the character and pattern of the dataset such as shape, size, type of data of each attribute, correctness, missing value, etc. by statistics method and data visualization.
 
-![Pic1](https://photos.app.goo.gl/wNoBuatRircoBXn19)
+![Pic1](https://cldup.com/dTxpPi9lDf.thumb.png)
 
 ## 2. Data Pre-processing
 
