@@ -67,7 +67,7 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 | Logistic Regression (LR) | 0.822 | 0.823 | 0.822 | 0.821 |
 | Support Vector Machine (SVM) | 0.832 | 0.832 | 0.833 | 0.832 |
 | Random Forest (RF) | 0.842 | 0.847 | 0.842 | 0.841 |
-| K-Nearest Neighbor (KNN | 0.842 | 0.847 | 0.842 | 0.841 |
+| K-Nearest Neighbor (KNN) | 0.842 | 0.847 | 0.842 | 0.841 |
 
 ## 4. Conclusion
 
