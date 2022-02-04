@@ -23,7 +23,7 @@ In this section, we made an attempt to get data ready for testing with a self-de
 
 #### 3.1.1 Several combinations of hyperparameter comparisons 
 
-In this process, we need to **`design and tune the hyperparameters`** of the Multilayer Perceptron (MLP) network. Due to deep learning having a black-box characteristic, we need to tune the hyperparameters by **`trial-and-error method`** for designing the most suitable model for this dataset. All hyperparameters are **`prioritized`** and **`randomly observed`** in the following table. 
+In this process, we needed to **`design and tune the hyperparameters`** of the Multilayer Perceptron (MLP) network. Due to a black-box issue, we tuned the hyperparameters by **` trial-and-error `** for finding the best model for the dataset. All hyperparameters were **`prioritized`** and **`randomly observed`** in the following table. 
 
 | Groups of hyperparameter tuning | List of hyperparameters | Hyperparameter ranges |
 | :------: | ------ | ------ |
