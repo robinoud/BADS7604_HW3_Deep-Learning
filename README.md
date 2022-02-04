@@ -21,7 +21,7 @@ Additional from **`correctness`** and **`missing value`**, this dataset needs to
   
 
 Finally, we combine the 2 methods and get a better result  
-[test with model 97-99% & dropout 0.3]
+[test with model 84-84% & dropout 0.3]
 
 ## 3. Experiment result and discussion
 ### 3.1 Multilayer Perceptron (MLP)
@@ -51,13 +51,13 @@ From our experiment, we have got interesting ideas for hyperparameter tuning.
 
 #### 3.1.2 What is the best one?
 
-Accuracy:			99.97% 
+Accuracy:			84.20% 
 
-Recall:				99.97% 
+Recall:				84.51% 
 
-Precision:			99.97% 
+Precision:			84.24% 
 
-F1 Score:			99.97%
+F1 Score:			84.17%
 
 ### 3.2 Traditional Machine Learning (ML)
 
@@ -65,10 +65,10 @@ For training this dataset to traditional machine learning, we use Scikit-learn, 
 
 | Algorithm | Accuracy | Recall | Precision | F1 Score |
 | ------ | :------: | :------: | :------: | :------: |
-| Logistic Regression (LR) | 0.819 | 0.821 | 0.820 | 0.819 |
-| Support Vector Machine (SVM) | 0.834 | 0.837 | 0.834 | 0.834 |
-| Random Forest (RF) | 0.842 | 0.847 | 0.842 | 0.842 |
-| K-Nearest Neighbor (KNN | 0.842 | 0.847 | 0.842 | 0.842 |
+| Logistic Regression (LR) | 0.822 | 0.823 | 0.822 | 0.821 |
+| Support Vector Machine (SVM) | 0.832 | 0.832 | 0.833 | 0.832 |
+| Random Forest (RF) | 0.842 | 0.847 | 0.842 | 0.841 |
+| K-Nearest Neighbor (KNN | 0.842 | 0.847 | 0.842 | 0.841 |
 
 ## 4. Conclusion
 
