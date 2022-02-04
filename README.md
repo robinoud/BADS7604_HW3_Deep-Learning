@@ -2,7 +2,7 @@
 ## _Powered by The Deep Sleeping Crew (Group6)_
 **`Deep Learning`** is a subset of **`Machine Learning`** which makes rapid advancement to process huge and complex data nowadays. Since the spotlight focuses on deep learning, most users may forget about traditional machine learning. However, this experiment aims to compare the performance of **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**, including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members and for readers. 
 ## 1. Dataset
-Before modeling, the dataset selection is the crucial part of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for training and testing with Multilayer Perceptron (MLP) model. It is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
+Before modeling, the dataset selection is the crucial part of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for being applied with MLP. So, it is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
 
 Then, we had an interest in the **`Adult dataset`** from UCI huge enough for our experiment. The dataset is for making a prediction whether a person's income exceeds $50K/yr based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
 
