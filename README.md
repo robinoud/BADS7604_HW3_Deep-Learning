@@ -61,7 +61,7 @@ F1 Score:			99.97%
 
 For training this dataset to traditional machine learning, we use Scikit-learn, the popular library in Python. The algorithm we select **`Logistic Regression (LR)`**, **`Support Vector Machine (SVM)`**, **`Random Forest (RF)`**, and **`K-Nearest Neighbor (KNN)`** for training and making predictions.
 
-| Algorithm | Accuracy | Recall | Precision | F1 Score |
+| Algorithms | Accuracy | Recall | Precision | F1 Score |
 | ------ | ------ | ------ | ------ | ------ |
 | Logistic Regression (LR) | 0.819 | 0.821 | 0.820 | 0.819 |
 | Support Vector Machine (SVM) | 0.834 | 0.837 | 0.834 | 0.834 |
