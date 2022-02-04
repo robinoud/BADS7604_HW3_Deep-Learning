@@ -12,11 +12,11 @@ The first part of this study is Exploratory data analysis for understanding the 
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Workflow%20of%20the%20experiment.png" style="width:600px;"/>
 
-## 2. Data Pre-processing
+## 2. Data Preperation
 
-Data Preparation for training, our team members try sampling several methods of pre-processing and observe the result for testing with the random Multilayer Perceptron (MLP) models. Next, we discuss self-experiment and found two interesting pre-processing methods and possible to use.
+In this section, we made an attempt to get data ready for testing with a self-designed MLP network. To share feasible methods with each other, we discuss the results of members' self-experiment. 
 
-Additional from **`correctness`** and **`missing value`**, this dataset needs to be managed the difference of many attributes including numerical and categorical values. Usually, traditional machine learning requires a numerical format for training and prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship. 
+In addition to **`correctness`** and **`missing value`**, the different types of attributes including numerical and categorical values need to be managed. Since traditional machine learning usually requires a numerical format for training and making a prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship.  
 
   
 
