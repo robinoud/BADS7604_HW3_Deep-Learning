@@ -4,7 +4,7 @@
 ## 1. Dataset
 Before modeling, the dataset selection is the crucial part of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for training and testing with Multilayer Perceptron (MLP) model. It is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
 
-Then, we had an interest in the **`Adult dataset`** from UCI huge enough for our experiment. The dataset is for prediction whether a person's income exceeds $50K/yr based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
+Then, we had an interest in the **`Adult dataset`** from UCI huge enough for our experiment. The dataset is for making a prediction whether a person's income exceeds $50K/yr based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
 
 Ref: https://archive.ics.uci.edu/ml/datasets/Adult
 
