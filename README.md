@@ -50,7 +50,7 @@ One of the group members created the best self-designed MLP which performed 85.1
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/804533861f928d325a4bb1752069c7b39894917e/Model%20Summary.jpg" style="width:600px;"/>
 
-Moreover, the model was compiled with Opt as the optimizer, binary cross-entropy as the loss function, and Sigmoid as the activation function. We have trained the model for 100 epochs with 32 batch size, which selected the highest accuracy model in 100 th epoch.
+Moreover, the model was compiled with ADAM as the optimizer, binary cross-entropy as the loss function, and Sigmoid as the activation function. We have trained the model for 100 epochs with 32 batch size, which selected the highest accuracy model in 100 th epoch.
 
 |Indicator|Score|
 | ------ | :------: |
