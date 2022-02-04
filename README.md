@@ -62,8 +62,6 @@ Moreover, the model was compiled with ADAM as the optimizer, binary cross-entrop
 ### 3.2 Traditional Machine Learning (ML)
 For training traditional machine learning with the dataset, we applied Scikit-learn, the popular library in Python. The algorithms we selected were **`Logistic Regression (LR)`**, **`Support Vector Machine (SVM)`**, **`Random Forest (RF)`**, and **`K-Nearest Neighbor (KNN)`**  for training and making predictions.
 
-![image](https://user-images.githubusercontent.com/98398392/152539996-d651d04f-6744-4a7d-983d-7e2730d4aaa2.png)
-
 | Algorithm | Accuracy | Recall | Precision | F1 Score |
 | ------ | :------: | :------: | :------: | :------: |
 | Logistic Regression (LR) | 0.822 | 0.823 | 0.822 | 0.821 |
