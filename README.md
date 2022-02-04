@@ -66,8 +66,8 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 | ------ | :------: | :------: | :------: | :------: |
 | Logistic Regression (LR) | 0.822 | 0.823 | 0.822 | 0.821 |
 | Support Vector Machine (SVM) | 0.832 | 0.832 | 0.833 | 0.832 |
-| Random Forest (RF) | 0.842 | 0.847 | 0.842 | 0.841 |
-| K-Nearest Neighbor (KNN) | 0.842 | 0.847 | 0.842 | 0.841 |
+| Random Forest (RF) | 👑0.842 | 👑0.847 | 👑0.842 | 👑0.841 |
+| K-Nearest Neighbor (KNN) | 👑0.842 | 👑0.847 | 👑0.842 | 👑0.841 |
 
 ## 4. Conclusion
 
@@ -81,12 +81,10 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 
 | Performance Measures | Our self-designed MLP | Logistic Regression (LR) | Support Vector Machine (SVM) | Random Forest (RF) | K-Nearest Neighbor (KNN) |
 | ------ | :------: | :------: | :------: | :------: | :------: |
-| 1. Accuracy | 0.849 | 0.819 | 0.834 | 0.842 | 0.842 | 
-| 2. Recall | 0.852 | 0.821 | 0.837 | 0.847 | 0.847 | 
-| 3. Precision | 0.850 | 0.820 | 0.834 | 0.842 | 0.842 |
-| 4. F1 Score | 0.849 | 0.819 | 0.834 | 0.842 | 0.842 |
-
-### 4.1 recommendation (using MLP vs. using traditional ML for structure data)
+| 1. Accuracy | 👑0.849 | 0.819 | 0.834 | 0.842 | 0.842 | 
+| 2. Recall | 👑0.852 | 0.821 | 0.837 | 0.847 | 0.847 | 
+| 3. Precision | 👑0.850 | 0.820 | 0.834 | 0.842 | 0.842 |
+| 4. F1 Score | 👑0.849 | 0.819 | 0.834 | 0.842 | 0.842 |
 
 ## End Credit
 ### _The Deep Sleeping Crew (Group6) Contribution - Uniform_
