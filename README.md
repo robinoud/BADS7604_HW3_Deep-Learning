@@ -16,7 +16,7 @@ The first part of this study is to explore data for understanding the character 
 
 In this section, we made an attempt to get data ready for testing with a self-designed MLP network. To share feasible methods with each other, we discuss the results of members' self-experiment. 
 
-Briefly, we removed missing values or outliers from the columns which interested us in the cleansing step. Next, the different types of attributes including numerical and categorical values need to be managed. Since traditional machine learning usually requires a numerical format for training and making a prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship. 
+Briefly, we removed missing values and outliers from the columns which interested us in the cleansing step. Next, the different types of attributes including numerical and categorical values need to be managed. Since traditional machine learning usually requires a numerical format for training and making a prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship. 
 
 Then, as encountering imbalanced datasets, we applied SMOTE (Synthetic Minority Over-sampling Technique) to perform over-sampling for solving the problem. Lastly, normalization was used for learning algorithms' benefit. 
 
