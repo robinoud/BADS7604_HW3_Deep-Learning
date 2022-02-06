@@ -1,6 +1,8 @@
 # Traditional Machine Learning (ML) vs Deep Learning (DL)
 ## _Powered by The Deep Sleeping Crew (Group6)_
 **`Deep Learning`**, which is a subset of **`Machine Learning`**, makes rapid advancement to process huge and complex data nowadays. Since the spotlight focuses on deep learning, most users may overlook traditional machine learning. However, this experiment aims to compare the performance of **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**, including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members and for readers. 
+
+
 ## 1. Dataset
 Before modeling, the dataset selection is the crucial thing of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. At first, we prepared the **`Wine dataset`** but it’s too small for being applied with MLP. So, it is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
 
@@ -12,6 +14,8 @@ The first part of this study is to explore data for understanding the character 
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Workflow%20of%20the%20experiment.png" style="width:600px;"/>
 
+
+
 ## 2. Data Preperation
 
 In this section, we made an attempt to get data ready for testing with a self-designed MLP network. To share feasible methods with each other, we discuss the results of members' self-experiment. 
@@ -21,6 +25,8 @@ Briefly, we removed missing values and outliers from the columns in the cleansin
 Then, as encountering imbalanced dataset, we applied SMOTE (Synthetic Minority Over-sampling Technique) to perform over-sampling for solving the problem. Lastly, normalization was used for learning algorithms' benefit. 
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Data%20preperation%20steps.png" style="width:600px;"/>
+
+
 
 ## 3. Experiment result and discussion
 ### 3.1 Multilayer Perceptron (MLP)
@@ -71,6 +77,8 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 | Support Vector Machine (SVM) | 0.832 | 0.832 | 0.833 | 0.832 |
 | Random Forest (RF) | 👑0.842 | 👑0.847 | 👑0.842 | 👑0.841 |
 | K-Nearest Neighbor (KNN) | 👑0.842 | 👑0.847 | 👑0.842 | 👑0.841 |
+
+
 
 ## 4. Conclusion
 
