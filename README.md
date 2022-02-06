@@ -108,7 +108,7 @@ From the experiment, we conclude that the performance of MLP was a little bit be
 
 **`16.67%`** 🍕 - **`6310422064`** Krisna Pintong - **`Explore data`** **`Prepare dataset`**  **`Experiment with MLP `**
 
-**`16.67%`** 🍕 - **`6310422065`** Songpol Bunyang - **`Experiment with MLP `** **`Experiment with traditional ML`** **`Evaluate and conclude result`**
+**`16.67%`** 🍕 - **`6310422065`** Songpol Bunyang - **`Explore data`** **`Experiment with MLP `** **`Evaluate and conclude result`**
 
 **`16.67%`** 🍕 - **`6310422069`** Phawit Boonrat - **`Explore data`** **`Experiment with MLP `** **`Experiment with traditional ML`**
 
