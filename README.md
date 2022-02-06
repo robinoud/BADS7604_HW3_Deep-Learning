@@ -1,10 +1,10 @@
 # Traditional Machine Learning (ML) vs Deep Learning (DL)
 ## _Powered by The Deep Sleeping Crew (Group6)_
-**`Deep Learning`**, which is a subset of **`Machine Learning`**, makes rapid advancement to process huge and complex data nowadays. Since the spotlight focuses on deep learning, most users may forget about traditional machine learning. However, this experiment aims to compare the performance of **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**, including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members and for readers. 
+**`Deep Learning`**, which is a subset of **`Machine Learning`**, makes rapid advancement to process huge and complex data nowadays. Since the spotlight focuses on deep learning, most users may overlook traditional machine learning. However, this experiment aims to compare the performance of **`Traditional Machine Learning (ML)`** and **`Multilayer Perceptron (MLP)`**, including hyperparameters tuning and modeling. We expect a sensational result and a good experience for our team members and for readers. 
 ## 1. Dataset
-Before modeling, the dataset selection is the crucial thing of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. First, we prepared the **`Wine dataset`** but it’s too small for being applied with MLP. So, it is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
+Before modeling, the dataset selection is the crucial thing of the comparison between Multilayer Perceptron (MLP) and traditional machine learning. At first, we prepared the **`Wine dataset`** but it’s too small for being applied with MLP. So, it is obvious that a huge number of input data is one of the key reasons why we need deep learning. 
 
-Then, we had an interest in the **`Adult dataset`** from UCI huge enough for our experiment. The dataset is for making a prediction whether a person's income exceeds $50K per year based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
+Then, we choosed in the **`Adult dataset`** from UCI huge enough for our experiment. The dataset is for making a prediction whether a person's income exceeds $50K per year based on census data (48,842 rows). Also known as the **`Census Income dataset`**.
 
 Ref: https://archive.ics.uci.edu/ml/datasets/Adult
 
@@ -16,9 +16,9 @@ The first part of this study is to explore data for understanding the character 
 
 In this section, we made an attempt to get data ready for testing with a self-designed MLP network. To share feasible methods with each other, we discuss the results of members' self-experiment. 
 
-Briefly, we removed missing values and outliers from the columns which interested us in the cleansing step. Next, the different types of attributes including numerical and categorical values need to be managed. Since traditional machine learning usually requires a numerical format for training and making a prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship. 
+Briefly, we removed missing values and outliers from the columns in the cleansing step. Next, the different types of attributes including numerical and categorical values need to be managed. Since traditional machine learning usually requires a numerical format for training and making a prediction. So we have to **`convert the categorical values to numerical values`** such as WorkClass, Education, Marital-Status, Occupation, Relationship. 
 
-Then, as encountering imbalanced datasets, we applied SMOTE (Synthetic Minority Over-sampling Technique) to perform over-sampling for solving the problem. Lastly, normalization was used for learning algorithms' benefit. 
+Then, as encountering imbalanced dataset, we applied SMOTE (Synthetic Minority Over-sampling Technique) to perform over-sampling for solving the problem. Lastly, normalization was used for learning algorithms' benefit. 
 
 <img src="https://github.com/robinoud/BADS7604_Deep-Learning/blob/4ec9a052a7fe7526bcd967b542eebf7e1574f438/Data%20preperation%20steps.png" style="width:600px;"/>
 
@@ -27,7 +27,7 @@ Then, as encountering imbalanced datasets, we applied SMOTE (Synthetic Minority 
 
 #### 3.1.1 Several combinations of hyperparameter comparisons 
 
-In this process, we needed to **`design and tune the hyperparameters`** of the Multilayer Perceptron (MLP) network. Due to a black-box issue, we tuned the hyperparameters by **` trial-and-error `** for finding the best model for the dataset. All hyperparameters were **`prioritized`** and **`randomly observed`** in the following table. 
+In this process, we **`designed and tuned the hyperparameters`** of the Multilayer Perceptron (MLP) network. Due to a black-box issue, we did it by **` trial-and-error `** for finding the best model for the dataset. All hyperparameters were **`prioritized`** and **`randomly observed`** in the following table. 
 
 | Groups of hyperparameter tuning | List of hyperparameters | Hyperparameter ranges |
 | :------: | ------ | ------ |
@@ -40,7 +40,7 @@ In this process, we needed to **`design and tune the hyperparameters`** of the M
 || 2) Drop out | None, after hidden layers
 || 3) Optimizer | ADAM, SGD, RMSProp
 
-From our experiment, we have got interesting ideas for hyperparameter tuning. 
+For hyperparameter tuning, we could interpreted the experimental findings as following.
 
 - If **`the number of neurons node`** in each layer is **`over 500 nodes`**, there is **`no significant improvement`**. 
 
@@ -74,7 +74,7 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 
 ## 4. Conclusion
 
-From the experiment, we conclude that the performance of MLP was a little bit better than that of all traditional machine learning algorithms we have used, but it took us a lot of effort and resource to create Multilayer Perceptron. Therefore, handling small or medium-sized structured data, traditional machine learning should be a compact solution for users with a satisfactory result, including its model representation making us easier when facing an error.
+From the experiment, we conclude that the performance of Multilayer Perceptron was a little bit better than that of all traditional machine learning algorithms we have used, but it took us a lot of effort and resources to create Multilayer Perceptron. Therefore, handling small or medium-sized structured data, traditional machine learning should be a compact solution for users with a satisfactory result, including its model representation making us easier when facing an error.
 
 The two tables below show comparative results in terms of implementation and performance.
 
