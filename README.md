@@ -56,13 +56,6 @@ One of the group members created the best self-designed MLP which performed 85.1
 
 Moreover, the model was compiled with ADAM as the optimizer, binary cross-entropy as the loss function, and Sigmoid as the activation function. We have trained the model for 100 epochs with 32 batch size, which selected the highest accuracy model in 100 th epoch.
 
-|Indicator|Score|
-| ------ | :------: |
-|Accuracy|84.20%|
-|Recall|84.51%|
-|Precision|84.24%|
-|F1 Score|84.17%|
-
 |Indicator|Accuracy|Recall|Precision|F1|
 | :------: | ------ | ------ | ------ | ------ |
 |Score| 84.20% |84.51%|84.24%|84.17%|
