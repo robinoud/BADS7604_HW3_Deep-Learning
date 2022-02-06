@@ -76,6 +76,8 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 
 From the experiment, we conclude that the performance of MLP was a little bit better than that of all traditional machine learning algorithms we have used, but it took us a lot of effort and resource to create Multilayer Perceptron. Therefore, handling small or medium-sized structured data, traditional machine learning should be a compact solution for users with a satisfactory result, including its model representation making us easier when facing an error.
 
+The two tables below show comparative results in terms of implementation and performance.
+
 | Implementation Details | Multilayer Perceptron (MLP)  | Traditional Machine Learning (ML) |
 | ------ | :------: | :------: |
 | 1. A huge number of input data required | Yes | No |
