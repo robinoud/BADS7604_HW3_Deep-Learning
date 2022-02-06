@@ -63,7 +63,13 @@ Moreover, the model was compiled with ADAM as the optimizer, binary cross-entrop
 |Precision|84.24%|
 |F1 Score|84.17%|
 
+|Indicator|Accuracy|Recall|Precision|F1|
+| :------: | ------ | ------ | ------ | ------ |
+|Score| 84.20% |84.51%|84.24%|84.17%|
+
+
 ### 3.2 Traditional Machine Learning (ML)
+
 For training traditional machine learning with the dataset, we applied Scikit-learn, the popular library in Python. The algorithms we selected were **`Logistic Regression (LR)`**, **`Support Vector Machine (SVM)`**, **`Random Forest (RF)`**, and **`K-Nearest Neighbor (KNN)`**  for training and making predictions.
 
 | Algorithm | Accuracy | Recall | Precision | F1 Score |
@@ -75,11 +81,13 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 
 ## 4. Conclusion
 
+From the experiment, we conclude that the performance of MLP was a little bit better than that of all traditional machine learning algorithms we have used, but it took us a lot of effort and resource to create Multilayer Perceptron. Therefore, handling small or medium-sized structured data, traditional machine learning should be a compact solution for users with a satisfactory result, including its model representation making us easier when facing an error.
+
 | Implementation Details | Multilayer Perceptron (MLP)  | Traditional Machine Learning (ML) |
 | ------ | :------: | :------: |
 | 1. A huge number of input data required | Yes | No |
 | 2. Data pre-processing required | Yes | Yes |
-| 3. Suffers from black-box issue | Yes | No, thanks to its model representation  |
+| 3. Suffers from black-box issue | Yes | No |
 | 4. High computing power consuming | Yes | No |
 | 5. A lot of parameters and training time consuming | Yes | No |
 
@@ -92,18 +100,27 @@ For training traditional machine learning with the dataset, we applied Scikit-le
 
 ## End Credit
 ### _The Deep Sleeping Crew (Group6) Contribution - Uniform_
-**`16.67%`** 🍕 - **`6310422057`** Natdanai Thedwichienchai
+**`16.67%`** 🍕 - **`6310422057`** Natdanai Thedwichienchai - **`Prepare dataset`** **`Experiment with MLP `**  **`Experiment with traditional ML`** 
 
-**`16.67%`** 🍕 - **`6310422061`** Wuthipoom Kunaborimas
+**`16.67%`** 🍕 - **`6310422061`** Wuthipoom Kunaborimas - **`Prepare dataset`** **`Experiment with MLP `**  **`Experiment with traditional ML`** 
 
-**`16.67%`** 🍕 - **`6310422063`** Nuj Lael
+**`16.67%`** 🍕 - **`6310422063`** Nuj Lael - **`Experiment with MLP `**  **`Experiment with traditional ML`** **`Evaluate and conclude result`**
 
-**`16.67%`** 🍕 - **`6310422064`** Krisna Pintong
+**`16.67%`** 🍕 - **`6310422064`** Krisna Pintong - **`Explore data`** **`Prepare dataset`**  **`Experiment with MLP `**
 
-**`16.67%`** 🍕 - **`6310422065`** Songpol Bunyang
+**`16.67%`** 🍕 - **`6310422065`** Songpol Bunyang - **`Experiment with MLP `** **`Experiment with traditional ML`** **`Evaluate and conclude result`**
 
-**`16.67%`** 🍕 - **`6310422069`** Phawit Boonrat
+**`16.67%`** 🍕 - **`6310422069`** Phawit Boonrat - **`Explore data`** **`Experiment with MLP `** **`Experiment with traditional ML`**
 
 <img src="https://th-test-11.slatic.net/p/49b63f074bd226e6871cc97c5525fc15.jpg" alt="drawing" style="width:200px;"/>
 
 ### Enjoy your pizza!!
+
+
+
+
+
+
+
+
+
